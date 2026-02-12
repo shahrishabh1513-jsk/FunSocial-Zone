@@ -26,3 +26,5 @@ This project was built for learning, practice, and portfolio showcase purposes. 
 1️⃣ Clone or download the repository  
 2️⃣ Open index.html in any modern browser  
 3️⃣ Explore the features of FunSocial Zone  
+
+Preview:
