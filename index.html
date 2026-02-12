@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunSocial Zone - Modern Social</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <!-- Navigation Bar -->
+    <nav class="modern-nav">
+        <div class="nav-container">
+            <div class="nav-left">
+                <button class="mobile-menu-btn">
+                    <i class="uil uil-bars"></i>
+                </button>
+                <div class="logo">
+                    <i class="uil uil-circle"></i>
+                    <h1>FunSocial<span>Zone</span></h1>
+                </div>
+            </div>
+            
+            <div class="nav-center">
+                <a href="#" class="nav-icon active">
+                    <i class="uil uil-estate"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#" class="nav-icon">
+                    <i class="uil uil-compass"></i>
+                    <span>Explore</span>
+                </a>
+                <a href="#" class="nav-icon">
+                    <i class="uil uil-play-circle"></i>
+                    <span>Reels</span>
+                </a>
+                <a href="#" class="nav-icon">
+                    <i class="uil uil-users-alt"></i>
+                    <span>Groups</span>
+                </a>
+            </div>
+            
+            <div class="nav-right">
+                <div class="search-container">
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search creators, topics...">
+                    </div>
+                </div>
+                
+                <button class="create-btn">
+                    <i class="uil uil-plus-circle"></i>
+                    <span class="desktop-text">Create</span>
+                </button>
+                
+                <div class="notification-bell">
+                    <i class="uil uil-bell"></i>
+                    <span class="badge">9+</span>
+                </div>
+                
+                <div class="nav-profile">
+                    <img src="./image/bg1.jpg" alt="Profile">
+                    <div class="online-status"></div>
+                </div>
+            </div>
+            
+            <button class="mobile-search-btn">
+                <i class="uil uil-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Search Overlay -->
+    <div class="mobile-search-overlay">
+        <div class="mobile-search-container">
+            <div class="mobile-search-header">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search everything...">
+                <button class="close-search">
+                    <i class="uil uil-times"></i>
+                </button>
+            </div>
+            <div class="search-suggestions">
+                <h4>Trending Searches</h4>
+                <div class="suggestions">
+                    <span>#WebDevelopment</span>
+                    <span>#TravelDiaries</span>
+                    <span>#Photography</span>
+                    <span>#StartupCulture</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav-menu">
+        <div class="mobile-nav-header">
+            <div class="mobile-user-info">
+                <img src="./image/bg1.jpg" alt="Somia Sen">
+                <div>
+                    <h4>Harshi</h4>
+                    <p>@harshi_13</p>
+                </div>
+            </div>
+            <button class="close-mobile-menu">
+                <i class="uil uil-times"></i>
+            </button>
+        </div>
+        
+        <div class="mobile-nav-links">
+            <a href="#" class="mobile-nav-link active">
+                <i class="uil uil-estate"></i>
+                <span>Home</span>
+            </a>
+            <a href="#" class="mobile-nav-link">
+                <i class="uil uil-user"></i>
+                <span>Profile</span>
+            </a>
+            <a href="#" class="mobile-nav-link">
+                <i class="uil uil-comment-alt"></i>
+                <span>Messages</span>
+                <span class="notification-count">6</span>
+            </a>
+            <a href="#" class="mobile-nav-link">
+                <i class="uil uil-users-alt"></i>
+                <span>Friends</span>
+            </a>
+            <a href="#" class="mobile-nav-link">
+                <i class="uil uil-image"></i>
+                <span>Gallery</span>
+            </a>
+            <a href="#" class="mobile-nav-link">
+                <i class="uil uil-bookmark"></i>
+                <span>Saved</span>
+            </a>
+            <a href="#" class="mobile-nav-link">
+                <i class="uil uil-chart-line"></i>
+                <span>Analytics</span>
+            </a>
+            <a href="#" class="mobile-nav-link" id="mobile-theme-btn">
+                <i class="uil uil-palette"></i>
+                <span>Theme</span>
+            </a>
+            <a href="#" class="mobile-nav-link">
+                <i class="uil uil-setting"></i>
+                <span>Settings</span>
+            </a>
+        </div>
+        
+        <div class="mobile-nav-footer">
+            <button class="mobile-create-btn">
+                <i class="uil uil-plus"></i>
+                <span>Create Post</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="modern-main">
+        <div class="main-container">
+            <!-- Left Sidebar -->
+            <aside class="sidebar-left">
+                <div class="user-card">
+                    <div class="user-cover">
+                        <img src="./image/cover.jpg" alt="Cover">
+                        <button class="edit-cover">
+                            <i class="uil uil-camera"></i>
+                        </button>
+                    </div>
+                    <div class="user-info">
+                        <div class="profile-img">
+                            <img src="./image/bg1.jpg" alt="Somia Sen">
+                            <div class="online-dot"></div>
+                            <button class="edit-profile">
+                                <i class="uil uil-camera"></i>
+                            </button>
+                        </div>
+                        <h3>Harshi</h3>
+                        <p class="username">@harshi_13</p>
+                        <div class="user-stats">
+                            <div>
+                                <strong>25</strong>
+                                <span>Posts</span>
+                            </div>
+                            <div>
+                                <strong>1.2k</strong>
+                                <span>Followers</span>
+                            </div>
+                            <div>
+                                <strong>567</strong>
+                                <span>Following</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-menu">
+                    <a href="#" class="menu-item active">
+                        <i class="uil uil-estate"></i>
+                        <span>News Feed</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="uil uil-user"></i>
+                        <span>Profile</span>
+                    </a>
+                    <a href="#" class="menu-item" id="messages-btn">
+                        <i class="uil uil-comment-alt"></i>
+                        <span>Messages</span>
+                        <span class="notification-count">6</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="uil uil-users-alt"></i>
+                        <span>Friends</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="uil uil-image"></i>
+                        <span>Gallery</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="uil uil-bookmark"></i>
+                        <span>Saved</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="uil uil-chart-line"></i>
+                        <span>Analytics</span>
+                    </a>
+                    <a href="#" class="menu-item" id="theme-btn">
+                        <i class="uil uil-palette"></i>
+                        <span>Theme</span>
+                    </a>
+                    <a href="#" class="menu-item">
+                        <i class="uil uil-setting"></i>
+                        <span>Settings</span>
+                    </a>
+                </div>
+
+                <div class="create-post-sidebar">
+                    <button class="btn-create">
+                        <i class="uil uil-plus"></i>
+                        <span>Create Post</span>
+                    </button>
+                </div>
+                
+                <div class="sidebar-footer">
+                    <div class="theme-toggle">
+                        <span>Dark Mode</span>
+                        <label class="switch">
+                            <input type="checkbox" id="globalDarkMode" checked>
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Feed -->
+            <section class="main-feed">
+                <!-- Create Post -->
+                <div class="create-post-card">
+                    <div class="post-input">
+                        <img src="./image/bg1.jpg" alt="Profile">
+                        <input type="text" placeholder="What's on your mind, Somia?">
+                    </div>
+                    <div class="post-options">
+                        <button class="post-option">
+                            <i class="uil uil-image"></i>
+                            <span class="desktop-text">Photo/Video</span>
+                        </button>
+                        <button class="post-option">
+                            <i class="uil uil-film"></i>
+                            <span class="desktop-text">Live Video</span>
+                        </button>
+                        <button class="post-option">
+                            <i class="uil uil-calendar-alt"></i>
+                            <span class="desktop-text">Event</span>
+                        </button>
+                        <button class="post-btn">Post</button>
+                    </div>
+                </div>
+
+                <!-- Stories -->
+                <div class="stories-section">
+                    <div class="stories-header">
+                        <h3>Stories</h3>
+                        <a href="#" class="see-all">See All</a>
+                    </div>
+                    <div class="stories-container">
+                        <div class="story-card create-story">
+                            <div class="story-content">
+                                <div class="add-story">
+                                    <i class="uil uil-plus"></i>
+                                </div>
+                                <p>Your Story</p>
+                            </div>
+                        </div>
+                        
+                        <div class="story-card">
+                            <img src="./image/profile-9.jpg" alt="Rahul">
+                            <div class="story-overlay"></div>
+                            <p>HR</p>
+                        </div>
+                        
+                        <div class="story-card">
+                            <img src="./image/profile-2.jpg" alt="Ayushi">
+                            <div class="story-overlay"></div>
+                            <p>Ayushi</p>
+                        </div>
+                        
+                        <div class="story-card">
+                            <img src="./image/profile-3.jpg" alt="Krisha">
+                            <div class="story-overlay"></div>
+                            <p>Krisha</p>
+                        </div>
+                        
+                        <div class="story-card">
+                            <img src="./image/profile-6.jpg" alt="Priya">
+                            <div class="story-overlay"></div>
+                            <p>Priya</p>
+                        </div>
+                        
+                        <div class="story-card">
+                            <img src="./image/bg2.jpg" alt="Het">
+                            <div class="story-overlay"></div>
+                            <p>Het</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feed Posts -->
+                <div class="feed-posts">
+                    <!-- Post 1 -->
+                    <div class="post-card">
+                        <div class="post-header">
+                            <div class="post-author">
+                                <img src="./image/bg3.jpg" alt="John Carter">
+                                <div>
+                                    <h4>Krisha Patel</h4>
+                                    <p>New York • 1 hour ago</p>
+                                </div>
+                            </div>
+                            <div class="post-actions-dropdown">
+                                <button class="post-menu">
+                                    <i class="uil uil-ellipsis-h"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#"><i class="uil uil-bookmark"></i> Save Post</a>
+                                    <a href="#"><i class="uil uil-share-alt"></i> Share</a>
+                                    <a href="#"><i class="uil uil-ban"></i> Hide</a>
+                                    <a href="#" class="report"><i class="uil uil-exclamation-triangle"></i> Report</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="post-content">
+                            <p>Enjoying the vibrant city vibes and beautiful architecture! There's nothing like exploring a new city and finding hidden gems in every corner. ✨</p>
+                            <div class="post-tags">
+                                <span class="tag">#travel</span>
+                                <span class="tag">#citylife</span>
+                                <span class="tag">#architecture</span>
+                                <span class="tag">#explore</span>
+                            </div>
+                        </div>
+                        
+                        <div class="post-image">
+                            <img src="./image/new.jpg" alt="City View">
+                            <div class="image-overlay">
+                                <button class="fullscreen-btn">
+                                    <i class="uil uil-expand-arrows"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="post-stats">
+                            <div class="reactions">
+                                <div class="reaction-icons">
+                                    <span class="reaction-icon" title="Like">❤️</span>
+                                    <span class="reaction-icon" title="Love">😍</span>
+                                    <span class="reaction-icon" title="Wow">😮</span>
+                                    <span class="reaction-count">1,245</span>
+                                </div>
+                                <div class="comments-count">
+                                    <i class="uil uil-comment"></i>
+                                    <span>128 comments</span>
+                                </div>
+                                <div class="shares-count">
+                                    <i class="uil uil-share"></i>
+                                    <span>45 shares</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="post-actions">
+                            <button class="post-action like-btn" data-liked="false">
+                                <i class="uil uil-thumbs-up"></i>
+                                <span class="action-text">Like</span>
+                            </button>
+                            <button class="post-action comment-btn">
+                                <i class="uil uil-comment"></i>
+                                <span class="action-text">Comment</span>
+                            </button>
+                            <button class="post-action share-btn">
+                                <i class="uil uil-share"></i>
+                                <span class="action-text">Share</span>
+                            </button>
+                            <button class="post-action save-btn" data-saved="false">
+                                <i class="uil uil-bookmark"></i>
+                                <span class="action-text">Save</span>
+                            </button>
+                        </div>
+                        
+                        <div class="comments-preview">
+                            <div class="comment-input">
+                                <img src="./image/bg3.jpg" alt="You">
+                                <input type="text" placeholder="Write a comment...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Post 2 -->
+                    <div class="post-card">
+                        <div class="post-header">
+                            <div class="post-author">
+                                <img src="./image/profile-6.jpg" alt="Priya">
+                                <div>
+                                    <h4>Priya Patel</h4>
+                                    <p>Paris • 2 hours ago</p>
+                                </div>
+                            </div>
+                            <div class="post-actions-dropdown">
+                                <button class="post-menu">
+                                    <i class="uil uil-ellipsis-h"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#"><i class="uil uil-bookmark"></i> Save Post</a>
+                                    <a href="#"><i class="uil uil-share-alt"></i> Share</a>
+                                    <a href="#"><i class="uil uil-ban"></i> Hide</a>
+                                    <a href="#" class="report"><i class="uil uil-exclamation-triangle"></i> Report</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="post-content">
+                            <p>Paris feels different in the spring. Every corner tells a story, every street has its own charm. The city of love never disappoints. ❤️</p>
+                            <div class="post-tags">
+                                <span class="tag">#paris</span>
+                                <span class="tag">#travel</span>
+                                <span class="tag">#spring</span>
+                                <span class="tag">#photography</span>
+                            </div>
+                        </div>
+                        
+                        <div class="post-image">
+                            <img src="./image/Paris View.jpg" alt="Paris View">
+                            <div class="image-overlay">
+                                <button class="fullscreen-btn">
+                                    <i class="uil uil-expand-arrows"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="post-stats">
+                            <div class="reactions">
+                                <div class="reaction-icons">
+                                    <span class="reaction-icon" title="Like">❤️</span>
+                                    <span class="reaction-icon" title="Love">😍</span>
+                                    <span class="reaction-count">3,012</span>
+                                </div>
+                                <div class="comments-count">
+                                    <i class="uil uil-comment"></i>
+                                    <span>245 comments</span>
+                                </div>
+                                <div class="shares-count">
+                                    <i class="uil uil-share"></i>
+                                    <span>89 shares</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="post-actions">
+                            <button class="post-action like-btn" data-liked="false">
+                                <i class="uil uil-thumbs-up"></i>
+                                <span class="action-text">Like</span>
+                            </button>
+                            <button class="post-action comment-btn">
+                                <i class="uil uil-comment"></i>
+                                <span class="action-text">Comment</span>
+                            </button>
+                            <button class="post-action share-btn">
+                                <i class="uil uil-share"></i>
+                                <span class="action-text">Share</span>
+                            </button>
+                            <button class="post-action save-btn" data-saved="true">
+                                <i class="uil uil-bookmark"></i>
+                                <span class="action-text">Saved</span>
+                            </button>
+                        </div>
+                        
+                        <div class="comments-preview">
+                            <div class="comment-input">
+                                <img src="./image/profile-6.jpg" alt="You">
+                                <input type="text" placeholder="Write a comment...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Post 3 -->
+                    <div class="post-card">
+                        <div class="post-header">
+                            <div class="post-author">
+                                <img src="./image/profile-8.jpg" alt="Het Patel ">
+                                <div>
+                                    <h4>Het Patel</h4>
+                                    <p>Mumbai • 5 hours ago</p>
+                                </div>
+                            </div>
+                            <div class="post-actions-dropdown">
+                                <button class="post-menu">
+                                    <i class="uil uil-ellipsis-h"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="#"><i class="uil uil-bookmark"></i> Save Post</a>
+                                    <a href="#"><i class="uil uil-share-alt"></i> Share</a>
+                                    <a href="#"><i class="uil uil-ban"></i> Hide</a>
+                                    <a href="#" class="report"><i class="uil uil-exclamation-triangle"></i> Report</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="post-content">
+                            <p>Late night coding session complete! Another project milestone achieved. The satisfaction of solving complex problems and seeing your code come to life is priceless. 💻</p>
+                            <div class="post-tags">
+                                <span class="tag">#coding</span>
+                                <span class="tag">#webdev</span>
+                                <span class="tag">#programming</span>
+                                <span class="tag">#developer</span>
+                            </div>
+                        </div>
+                        
+                        <div class="post-image">
+                            <img src="./image/coding.jpg" alt="Coding Setup">
+                            <div class="image-overlay">
+                                <button class="fullscreen-btn">
+                                    <i class="uil uil-expand-arrows"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="post-stats">
+                            <div class="reactions">
+                                <div class="reaction-icons">
+                                    <span class="reaction-icon" title="Like">👏</span>
+                                    <span class="reaction-icon" title="Love">💪</span>
+                                    <span class="reaction-icon" title="Wow">🔥</span>
+                                    <span class="reaction-count">980</span>
+                                </div>
+                                <div class="comments-count">
+                                    <i class="uil uil-comment"></i>
+                                    <span>89 comments</span>
+                                </div>
+                                <div class="shares-count">
+                                    <i class="uil uil-share"></i>
+                                    <span>34 shares</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="post-actions">
+                            <button class="post-action like-btn" data-liked="true">
+                                <i class="uil uil-thumbs-up"></i>
+                                <span class="action-text">Liked</span>
+                            </button>
+                            <button class="post-action comment-btn">
+                                <i class="uil uil-comment"></i>
+                                <span class="action-text">Comment</span>
+                            </button>
+                            <button class="post-action share-btn">
+                                <i class="uil uil-share"></i>
+                                <span class="action-text">Share</span>
+                            </button>
+                            <button class="post-action save-btn" data-saved="false">
+                                <i class="uil uil-bookmark"></i>
+                                <span class="action-text">Save</span>
+                            </button>
+                        </div>
+                        
+                        <div class="comments-preview">
+                            <div class="comment-input">
+                                <img src="./image/profile-8.jpg" alt="You">
+                                <input type="text" placeholder="Write a comment...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Sidebar -->
+            <aside class="sidebar-right">
+                <!-- Friend Requests -->
+                <div class="widget">
+                    <div class="widget-header">
+                        <h3>Friend Requests</h3>
+                        <a href="#" class="see-all">See All</a>
+                    </div>
+                    <div class="friend-requests">
+                        <div class="request-item">
+                            <img src="./image/profile-5.jpg" alt="Hajia Bintu">
+                            <div class="request-info">
+                                <h4>Yash Darji</h4>
+                                <p>8 mutual friends</p>
+                                <div class="request-actions">
+                                    <button class="btn-accept">Accept</button>
+                                    <button class="btn-decline">Decline</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="request-item">
+                            <img src="./image/profile-9.jpg" alt="Rishabh Shah">
+                            <div class="request-info">
+                                <h4>Rishabh Shah</h4>
+                                <p>2 mutual friends</p>
+                                <div class="request-actions">
+                                    <button class="btn-accept">Accept</button>
+                                    <button class="btn-decline">Decline</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="request-item">
+                            <img src="./image/profile-1.jpg" alt="Harshita Shah">
+                            <div class="request-info">
+                                <h4>Harshita Shah</h4>
+                                <p>1 mutual friend</p>
+                                <div class="request-actions">
+                                    <button class="btn-accept">Accept</button>
+                                    <button class="btn-decline">Decline</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Online Friends -->
+                <div class="widget">
+                    <div class="widget-header">
+                        <h3>Online Friends <span class="online-count">12</span></h3>
+                    </div>
+                    <div class="online-friends">
+                        <div class="online-friend">
+                            <div class="friend-avatar">
+                                <img src="./image/i1.jpg" alt="Chantel">
+                                <div class="online-dot"></div>
+                            </div>
+                            <span>sujal</span>
+                        </div>
+                        <div class="online-friend">
+                            <div class="friend-avatar">
+                                <img src="./image/R15logo (1).png" alt="Edem">
+                                <div class="online-dot"></div>
+                            </div>
+                            <span>RS</span>
+                        </div>
+                        <div class="online-friend">
+                            <div class="friend-avatar">
+                                <img src="./image/hyfun_potatoes.png" alt="Franca">
+                                <div class="online-dot"></div>
+                            </div>
+                            <span>Hy fun </span>
+                        </div>
+                        <div class="online-friend">
+                            <div class="friend-avatar">
+                                <img src="./image/fav.png" alt="Julient">
+                                <div class="online-dot"></div>
+                            </div>
+                            <span>Harry Potter </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trending Topics -->
+                <div class="widget">
+                    <div class="widget-header">
+                        <h3>Trending Now</h3>
+                    </div>
+                    <div class="trending-topics">
+                        <div class="trending-topic">
+                            <span class="trend-number">01</span>
+                            <div>
+                                <h4>Web Development</h4>
+                                <p>2.5k posts</p>
+                            </div>
+                        </div>
+                        <div class="trending-topic">
+                            <span class="trend-number">02</span>
+                            <div>
+                                <h4>Travel Diaries</h4>
+                                <p>1.8k posts</p>
+                            </div>
+                        </div>
+                        <div class="trending-topic">
+                            <span class="trend-number">03</span>
+                            <div>
+                                <h4>Photography</h4>
+                                <p>1.2k posts</p>
+                            </div>
+                        </div>
+                        <div class="trending-topic">
+                            <span class="trend-number">04</span>
+                            <div>
+                                <h4>Startup Culture</h4>
+                                <p>890 posts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Birthday Reminders -->
+                <div class="widget birthday-widget">
+                    <div class="widget-header">
+                        <h3>Birthdays</h3>
+                    </div>
+                    <div class="birthday-content">
+                        <div class="birthday-icon">
+                            <i class="uil uil-birthday-cake"></i>
+                        </div>
+                        <p><strong>Chantel Msiza</strong> has birthday tomorrow!</p>
+                        <button class="btn-birthday">Send Wishes</button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Notifications Panel -->
+    <div class="notifications-panel" id="notificationsPanel">
+        <div class="notifications-header">
+            <h3>Notifications</h3>
+            <button class="mark-all-read">Mark all as read</button>
+            <button class="close-notifications">
+                <i class="uil uil-times"></i>
+            </button>
+        </div>
+        <div class="notifications-list">
+            <!-- Notifications will be loaded here -->
+        </div>
+        <div class="notifications-footer">
+            <a href="#" class="view-all">View all notifications</a>
+        </div>
+    </div>
+
+    <!-- Messages Panel -->
+    <div class="messages-panel" id="messagesPanel">
+        <div class="messages-header">
+            <h3>Messages</h3>
+            <button class="new-message">
+                <i class="uil uil-edit"></i>
+            </button>
+            <button class="close-messages">
+                <i class="uil uil-times"></i>
+            </button>
+        </div>
+        
+        <div class="messages-search">
+            <i class="uil uil-search"></i>
+            <input type="text" placeholder="Search messages..." id="messageSearch">
+        </div>
+        
+        <div class="messages-tabs">
+            <button class="tab active">Primary</button>
+            <button class="tab">General</button>
+            <button class="tab requests">Requests <span>7</span></button>
+        </div>
+        
+        <div class="conversations-list">
+            <!-- Conversations will be loaded here -->
+        </div>
+    </div>
+
+    <!-- Theme Customization Modal -->
+    <div class="theme-modal" id="themeModal">
+        <div class="theme-content">
+            <div class="theme-header">
+                <h2>Customize Theme</h2>
+                <button class="close-theme">
+                    <i class="uil uil-times"></i>
+                </button>
+            </div>
+            
+            <div class="theme-options">
+                <div class="theme-option">
+                    <h4>Color Theme</h4>
+                    <div class="color-options">
+                        <div class="color-option active" data-color="blue">
+                            <div class="color-preview"></div>
+                            <span>Blue</span>
+                        </div>
+                        <div class="color-option" data-color="purple">
+                            <div class="color-preview"></div>
+                            <span>Purple</span>
+                        </div>
+                        <div class="color-option" data-color="green">
+                            <div class="color-preview"></div>
+                            <span>Green</span>
+                        </div>
+                        <div class="color-option" data-color="red">
+                            <div class="color-preview"></div>
+                            <span>Red</span>
+                        </div>
+                        <div class="color-option" data-color="orange">
+                            <div class="color-preview"></div>
+                            <span>Orange</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="theme-option">
+                    <h4>Dark Mode</h4>
+                    <div class="dark-mode-toggle">
+                        <span>Light</span>
+                        <label class="switch">
+                            <input type="checkbox" id="darkModeToggle" checked>
+                            <span class="slider"></span>
+                        </label>
+                        <span>Dark</span>
+                    </div>
+                </div>
+                
+                <div class="theme-option">
+                    <h4>Layout Density</h4>
+                    <div class="density-options">
+                        <button class="density-option active">Compact</button>
+                        <button class="density-option">Comfortable</button>
+                        <button class="density-option">Spacious</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="theme-actions">
+                <button class="btn-reset">Reset to Default</button>
+                <button class="btn-apply">Apply Changes</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Mobile Navigation -->
+    <div class="bottom-mobile-nav">
+        <a href="#" class="mobile-nav-btn active">
+            <i class="uil uil-estate"></i>
+            <span>Home</span>
+        </a>
+        <a href="#" class="mobile-nav-btn">
+            <i class="uil uil-compass"></i>
+            <span>Explore</span>
+        </a>
+        <a href="#" class="mobile-nav-btn" id="mobile-create-btn">
+            <div class="create-icon">
+                <i class="uil uil-plus"></i>
+            </div>
+        </a>
+        <a href="#" class="mobile-nav-btn" id="mobile-notifications-btn">
+            <i class="uil uil-bell"></i>
+            <span>Notifications</span>
+            <span class="mobile-badge">9+</span>
+        </a>
+        <a href="#" class="mobile-nav-btn" id="mobile-profile-btn">
+            <i class="uil uil-user"></i>
+            <span>Profile</span>
+        </a>
+    </div>
+
+    <!-- Create Post Modal -->
+    <div class="create-post-modal" id="createPostModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Create Post</h3>
+                <button class="close-modal">
+                    <i class="uil uil-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="post-author">
+                    <img src="./image/bg1.jpg" alt="Somia Sen">
+                    <div>
+                        <h4>Harshi</h4>
+                        <div class="privacy-select">
+                            <i class="uil uil-globe"></i>
+                            <span>Public</span>
+                            <i class="uil uil-angle-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <textarea placeholder="What's on your mind?" rows="5"></textarea>
+                <div class="post-attachments">
+                    <button class="attachment-btn">
+                        <i class="uil uil-image"></i>
+                        <span>Photo/Video</span>
+                    </button>
+                    <button class="attachment-btn">
+                        <i class="uil uil-user-plus"></i>
+                        <span>Tag People</span>
+                    </button>
+                    <button class="attachment-btn">
+                        <i class="uil uil-map-marker"></i>
+                        <span>Location</span>
+                    </button>
+                    <button class="attachment-btn">
+                        <i class="uil uil-smile"></i>
+                        <span>Feeling</span>
+                    </button>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-cancel">Cancel</button>
+                <button class="btn-post">Post</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
