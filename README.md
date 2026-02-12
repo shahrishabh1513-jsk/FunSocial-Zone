@@ -28,3 +28,5 @@ This project was built for learning, practice, and portfolio showcase purposes. 
 3️⃣ Explore the features of FunSocial Zone  
 
 Preview:
+
+<img width="1112" height="842" alt="Screenshot 2026-02-12 144452" src="https://github.com/user-attachments/assets/76e4cdb1-6413-4b10-bc40-f6a31845b363" />
